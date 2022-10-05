@@ -1,0 +1,6 @@
+- id: check-srcinfo
+  name: Check SRCINFO
+  description: Check that SRCINFO has been updated to reflect changes in PKGBUILD
+  language: script
+  entry: check_srcinfo.sh
+  files: '(PKGBUILD|\.SRCINFO)'
